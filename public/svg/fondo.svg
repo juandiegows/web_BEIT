@@ -1,0 +1,17 @@
+<svg width="1920" height="5974" viewBox="0 0 1920 5974" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_7799_6269)">
+<rect width="1920" height="5974" fill="#064380"/>
+<circle cx="207.5" cy="143.5" r="946.5" transform="rotate(90 207.5 143.5)" fill="#054AAD"/>
+<circle cx="432.5" cy="2468.5" r="946.5" transform="rotate(90 432.5 2468.5)" fill="#054AAD"/>
+<circle cx="72.5" cy="1444.5" r="946.5" transform="rotate(90 72.5 1444.5)" fill="#064380" fill-opacity="0.89"/>
+<circle cx="1470.5" cy="1728.5" r="946.5" transform="rotate(90 1470.5 1728.5)" fill="#00D9EF"/>
+<circle cx="1478.5" cy="4377.5" r="946.5" transform="rotate(90 1478.5 4377.5)" fill="#00D9EF" fill-opacity="0.59"/>
+<foreignObject x="-500" y="-513" width="2920" height="7859"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(250px);clip-path:url(#bgblur_1_7799_6269_clip_path);height:100%;width:100%"></div></foreignObject><rect data-figma-bg-blur-radius="500" y="-13" width="1920" height="6859" fill="white" fill-opacity="0.02"/>
+</g>
+<defs>
+<clipPath id="bgblur_1_7799_6269_clip_path" transform="translate(500 513)"><rect y="-13" width="1920" height="6859"/>
+</clipPath><clipPath id="clip0_7799_6269">
+<rect width="1920" height="5974" fill="white"/>
+</clipPath>
+</defs>
+</svg>
