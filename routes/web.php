@@ -1,11 +1,16 @@
 <?php
 
+use App\Models\Services;
 use Illuminate\Support\Facades\Route;
 use Livewire\Volt\Volt;
 
 Route::get('/', function () {
-    return view('welcome');
+    $services = Services::where('is_active', true)
+        ->orderBy('name')
+        ->get();
+    return view('welcome', compact('services'));
 })->name('home');
+
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
