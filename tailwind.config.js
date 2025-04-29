@@ -17,6 +17,15 @@ export default {
                 kanit: ['Kanit'],
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            screens: {
+                'sm': '640px',
+                'smd': '700px',
+                'md': '768px',
+                'mdx': '850px',
+                'lg': '1024px',
+                'xl': '1280px',
+                '2xl': '1536px',
+            },
             fontSize: {
                 'xs': '0.75rem',    // Tamaño extra pequeño
                 'sm': '0.875rem',   // Tamaño pequeño
@@ -35,6 +44,7 @@ export default {
             colors: {
                 primary: '#064380', // Aquí defines tu color personalizado
                 secondary: '#1C3D67', // Otro ejemplo de color
+                'blue-primary': '#054AAD',
                 shadow: '#00D9EF', // Otro ejemplo de color
                 'btn-primary': '#054AAD',  // Otro ejemplo de color
                 'txt-primary': '#FFF', 
