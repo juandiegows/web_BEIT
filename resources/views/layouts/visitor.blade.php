@@ -30,7 +30,11 @@
 <body class="font-sans antialiased bg-primary ">
     <header class="w-full max-w-full flex justify-between items-center p-5 relative z-50" x-data="{ open: false }">
         <img class="w-20 md:hidden mdx:block" src="{{ asset('svg/logo.svg') }}" alt="logo">
-    
+        <a @click="open = false"
+        class="md:hidden font-extrabold text-white text-nowrap px-6 py-2 rounded-full  bg-btn-primary shadow-[0_0_25px_#00D9EF] hover:shadow-[1_1_35px_#00D9EF] transition-all duration-300"
+        href="#">
+        Tienda Virtual
+     </a>
         <!-- Botón hamburguesa -->
         <button @click="open = !open" class="md:hidden z-50 text-white">
             <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24"
