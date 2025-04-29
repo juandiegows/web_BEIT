@@ -1,2 +1,6 @@
-*
 !.gitignore
+!services/
+!services/logo/**
+!services/image/*
+!announce/
+!announce/*
