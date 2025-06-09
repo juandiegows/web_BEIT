@@ -55,9 +55,9 @@
         flex flex-col items-center pt-[25%] px-[10%] gap-6
         md:static md:h-auto md:w-auto md:bg-transparent md:text-txt-primary md:flex-row md:translate-x-0 md:gap-8 md:justify-end md:items-center md:px-0 md:pt-0">
        
-       <a @click="open = false" class="w-full  text-lg font-extrabold text-right no-underline" href="#">Inicio</a>
+       <a @click="open = false" class="w-full  text-lg font-extrabold text-right no-underline" href="{{ route('home') }}">Inicio</a>
        <a @click="open = false" class="w-full font-extrabold text-right no-underline" href="#">Nosotros</a>
-       <a @click="open = false" class="w-full font-extrabold text-right no-underline" href="#">Servicios</a>
+       <a @click="open = false" class="w-full font-extrabold text-right no-underline" href="{{ route('servicios') }}">Servicios</a>
        <a @click="open = false" class="w-full font-extrabold text-right no-underline" href="#">Proyectos</a>
        <a @click="open = false" class="w-full font-extrabold text-right no-underline" href="#">Contáctanos</a>
    

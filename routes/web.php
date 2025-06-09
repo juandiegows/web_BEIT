@@ -11,6 +11,12 @@ Route::get('/', function () {
     return view('welcome', compact('services'));
 })->name('home');
 
+Route::get('/servicios', function () {
+    $services = Services::where('is_active', true)
+        ->orderBy('name')
+        ->get();
+    return view('servicios', compact('services'));
+})->name('servicios');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
