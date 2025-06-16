@@ -18,6 +18,17 @@ Route::get('/servicios', function () {
     return view('servicios', compact('services'));
 })->name('servicios');
 
+Route::get('/nosotros', function () {
+    return view('nosotros');
+})->name('nosotros');
+
+Route::get('/proyectos', function () {
+    return view('proyectos');
+})->name('proyectos');
+
+Route::get('/contacto', [App\Http\Controllers\ContactController::class, 'show'])->name('contacto');
+Route::post('/contacto', [App\Http\Controllers\ContactController::class, 'send'])->name('contacto.send');
+
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');

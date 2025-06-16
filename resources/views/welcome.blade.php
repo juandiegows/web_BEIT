@@ -4,7 +4,7 @@
 @section('description', 'Bienvenido al panel de administración donde puedes gestionar todo.') {{-- Descripción personalizada --}}
 @section('keywords', 'admin, dashboard, panel de administración') {{-- Palabras clave --}}
 @section('author', 'Administrador del sitio') {{-- Autor personalizado --}}
-
+@section('favicon', asset('svg/lobito.svg'))
 
 
 @section('content')
