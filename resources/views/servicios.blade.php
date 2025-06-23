@@ -1,4 +1,5 @@
 @extends('layouts.visitor') {{-- Extiende la plantilla base de visitante --}}
+@section('favicon', asset('svg/Recurso.svg'))
 
 @section('content')
 

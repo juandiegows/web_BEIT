@@ -4,7 +4,7 @@
 @section('description', 'Información sobre nosotros y nuestra misión.')
 @section('keywords', 'nosotros, misión, visión, empresa')
 @section('author', 'Administrador del sitio')
-@section('favicon', asset('svg/isotipo.jpg'))
+@section('favicon', asset('svg/Recurso.svg'))
 
 @php
 $headerStyle = 'centered';

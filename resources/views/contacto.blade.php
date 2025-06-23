@@ -46,7 +46,7 @@ $headerStyle = 'centered';
                             <textarea id="message" name="message" rows="4" placeholder="Mensaje*" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-primary" required></textarea>
                         </div>
                         <div class="flex justify-center">
-                            <button type="submit" class="bg-white text-primary px-20 py-2 rounded-lg hover:bg-blue-700 hover:border-white hover:border-2 hover:text-white transition-colors">Enviar Mensaje</button>
+                            <button type="submit" class="bg-white  text-primary px-24 py-2 rounded-full hover:bg-blue-700 hover:border-white hover:border-2 hover:text-white transition-colors">Enviar Mensaje</button>
                         </div>
                     </form>
                 </div>
@@ -91,9 +91,21 @@ $headerStyle = 'centered';
                                 <h2 class="text-white font-extrabold text-xl">Síguenos</h2>
                             </div>
                             <div class="flex gap-4 pl-10">
-                               <img src="{{ asset('img/contacto/instagram.png') }}" alt="Instagram" class="w-6 h-6 self-start mt-1">
-                               <img src="{{ asset('img/contacto/facebook.png') }}" alt="Facebook" class="w-6 h-6 self-start mt-1">
-                               <img src="{{ asset('img/contacto/linkend.png') }}" alt="Twitter" class="w-6 h-6 self-start mt-1">
+                                <a href="https://instagram.com" target="_blank" class="group">
+                                    <img src="{{ asset('img/contacto/instagram.png') }}" 
+                                         alt="Instagram" 
+                                         class="w-6 h-6 self-start mt-1 transition-transform duration-300 group-hover:scale-125">
+                                </a>
+                                <a href="https://facebook.com" target="_blank" class="group">
+                                    <img src="{{ asset('img/contacto/facebook.png') }}" 
+                                         alt="Facebook" 
+                                         class="w-6 h-6 self-start mt-1 transition-transform duration-300 group-hover:scale-125">
+                                </a>
+                                <a href="https://linkedin.com" target="_blank" class="group">
+                                    <img src="{{ asset('img/contacto/linkend.png') }}" 
+                                         alt="LinkedIn" 
+                                         class="w-6 h-6 self-start mt-1 transition-transform duration-300 group-hover:scale-125">
+                                </a>
                             </div>
                         </div>
                         

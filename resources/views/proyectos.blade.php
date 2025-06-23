@@ -4,7 +4,7 @@
 @section('description', 'Nuestros proyectos destacados y casos de éxito.')
 @section('keywords', 'proyectos, casos de éxito, trabajos realizados')
 @section('author', 'Administrador del sitio')
-@section('favicon', asset('svg/isotipo.jpg'))
+@section('favicon', asset('svg/Recurso.svg'))
 
 @php
 $headerStyle = 'centered';

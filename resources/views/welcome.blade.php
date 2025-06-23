@@ -4,7 +4,7 @@
 @section('description', 'Bienvenido al panel de administración donde puedes gestionar todo.') {{-- Descripción personalizada --}}
 @section('keywords', 'admin, dashboard, panel de administración') {{-- Palabras clave --}}
 @section('author', 'Administrador del sitio') {{-- Autor personalizado --}}
-@section('favicon', asset('svg/lobito.svg'))
+@section('favicon', asset('svg/Recurso.svg'))
 
 
 @section('content')
@@ -70,10 +70,25 @@
 
 <livewire:components.partners />
 
+
+<div class="circule-container absolute top-0 left-0 " style="top: var(--top, 0%); left: var(--left, -0%)">
+    <div class="circle-gradient w-[800px] h-[800px] " style="background: radial-gradient(circle, #00D9EF, transparent); transform: translate(1000px, 3650px); opacity(0.89);"></div>
+</div>
+
+<div class="circule-container absolute top-0 left-0 " style="top: var(--top, 0%); left: var(--left, -0%)">
+    <div class="circle-gradient w-[600px] h-[600px] " style="background: radial-gradient(circle, #00D9EF, transparent); transform: translate(600px, 3600px); opacity(0.89);"></div>
+</div>
+
+<div class="circule-container absolute top-0 left-0 " style="top: var(--top, 0%); left: var(--left, -0%)">
+    <div class="circle-gradient w-[800px] h-[800px] " style="background: radial-gradient(circle, #00D9EF, transparent); transform: translate(50px, 3700px); opacity(0.89);"></div>
+</div>
+
+@include('layouts.footer')
+
 <script>
-function toggleText() {
-    const text = document.getElementById('quoteText');
-    text.classList.toggle('hidden');
-}
+    function toggleText() {
+        const text = document.getElementById('quoteText');
+        text.classList.toggle('hidden');
+    }
 </script>
 @endsection
