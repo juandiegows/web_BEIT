@@ -21,6 +21,8 @@
       description="Protección digital de élite: analizamos, detectamos y prevenimos ataques, asegurando la seguridad de sus activos empresariales."
       features="Evaluación de vulnerabilidades|Pruebas de penetración|Monitoreo de seguridad 24/7|Respuesta a incidentes"
       url_logo="/storage/services/logo/Ciberseguridad.png"
+      url_image_blanco="/img/service/CiberseguridadBlanco.png"
+      url_image_normal="/img/service/Ciberseguridad.png"
       type="end"
    />
 
@@ -31,6 +33,8 @@
       description="Creación profesional de sitios y aplicaciones móviles. Desarrollamos soluciones web y móviles personalizadas para impulsar su negocio."
       features="Diseño web responsive|Desarrollo de aplicaciones móviles|Mantenimiento y soporte|Optimización SEO"
       url_logo="/storage/services/logo/desarrollo_web.png"
+      url_image_blanco="/img/service/DesarrolloBlanco.png"
+      url_image_normal="/img/service/Desarrollo.png"
       type="start"
    />
 
@@ -41,6 +45,8 @@
       description="Estrategias digitales efectivas. Potenciamos su presencia online con estrategias personalizadas para atraer y convertir clientes."
       features="Estrategias SEO/SEM|Gestión de redes sociales|Email marketing|Análisis de datos"
       url_logo="/storage/services/logo/marking_digital.png"
+      url_image_blanco="/img/service/MarketingBlanco.png"
+      url_image_normal="/img/service/Marketing.png"
       type="end"
    />
 
@@ -49,8 +55,10 @@
       name="CLOUD & INFRAESTRUCTURE"
       url="/cloud-infraestructure"
       description="Soluciones avanzadas en la nube. Implementamos infraestructuras cloud escalables para optimizar sus operaciones tecnológicas."
-      features="Migración a la nube|Soluciones de almacenamiento|Seguridad en la nube|Soporte técnico"
+      features="Migración a la nube|Gestión de servidores|Soluciones de backup|Optimización de costos"
       url_logo="/storage/services/logo/cloud_infraestructure.png"
+      url_image_blanco="/img/service/CloudBlanco.png"
+      url_image_normal="/img/service/Cloud.png"
       type="start"
    />
 
@@ -61,6 +69,8 @@
       description="Externalice su soporte de IT. Soluciones integrales de externalización para satisfacer las necesidades tecnológicas de su empresa."
       features="Soporte técnico|Gestión de infraestructura|Consultoría IT|Soluciones personalizadas"
       url_logo="/storage/services/logo/it_outsourcing.png"
+      url_image_blanco="/img/service/ITBlanco.png"
+      url_image_normal="/img/service/IT.png"
       type="end"
    />
 
@@ -71,6 +81,8 @@
       description="Experiencias tecnológicas inolvidables. Organizamos eventos tecnológicos para inspirar, educar y conectar a personas amantes de la tecnología."
       features="Workshops y seminarios|Hackathons|Conferencias especializadas|Networking"
       url_logo="/storage/services/logo/ventos_tech.png"
+      url_image_blanco="/img/service/EventosBlanco.png"
+      url_image_normal="/img/service/Eventos.png"
       type="start"
    />
 
@@ -81,6 +93,8 @@
       description="Potencie su rendimiento tecnológico. Equipamiento especializado en IT y gaming para mejorar su experiencia y productividad."
       features="Hardware profesional|Accesorios gaming|Equipos empresariales|Soporte técnico"
       url_logo="/storage/services/logo/equiamiento_it_gaming.png"
+      url_image_blanco="/img/service/EquipamientoBlanco.png"
+      url_image_normal="/img/service/Equipamiento.png"
       type="end"
    />
 
